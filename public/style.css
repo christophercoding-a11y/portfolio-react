@@ -20,13 +20,7 @@ body {
     margin-bottom: 1rem;
 }
 
-#homeMain {
-    padding: 60px 0;
-    background: #f9f9f9;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-/* Container */
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -59,8 +53,9 @@ body {
 .footer {
     background-color: grey;
     color: black;
-    margin: 10px 0;
-    padding: 25px 0;
+    margin-top: 10px;
+    padding-top: 20px ;
+    padding-bottom: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -161,6 +156,13 @@ h2 {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
+
+#homeMain {
+    padding: 60px 0;
+    background: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Responsive Columns */
 @media (max-width: 768px) {
     .row {
@@ -175,5 +177,4 @@ h2 {
     width: 100%;
 }
 }
-
 

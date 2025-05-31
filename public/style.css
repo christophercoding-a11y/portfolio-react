@@ -156,6 +156,32 @@ h2 {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
+#errorMain {
+    min-height: 100vh;
+    background-color: #fef6e4;
+    /* color: #001858; */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#errorMain .container {
+    max-width: 600px;
+    padding: 20px;
+}
+
+#errorMain img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+#errorMain .error {
+    font-size: 1.1rem;
+    padding: 15px 20px;
+}
+
+
+
 
 #homeMain {
     padding: 60px 0;

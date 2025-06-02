@@ -81,7 +81,7 @@ export default [
     },
     {
         id: 11, 
-        name: 'to-go-list',
+        name: 'to-do-list',
         imgUrl: 'todo.png',
         description: 'This is my to-do-list project with, Html5, vanilla javascript, CSS and Bootstrap',
         sourceCode: 'https://github.com/christophercoding-a11y/To-Do-List',

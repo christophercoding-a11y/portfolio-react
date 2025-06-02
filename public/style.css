@@ -163,7 +163,6 @@ h2 {
 #errorMain {
     min-height: 100vh;
     background-color: #fef6e4;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
 #errorMain .container {
@@ -171,12 +170,6 @@ h2 {
     padding: 20px;
 }
 
-#errorMain img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-    border-radius: 8px;
-}
 
 #errorMain .error {
     font-size: 1.1rem;

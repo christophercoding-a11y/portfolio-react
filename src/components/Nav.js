@@ -1,17 +1,29 @@
-import { Link } from "react-router"
+import { Link } from "react-router";
 
-const Nav =()=> {
-
+const Nav = () => {
     return (
-        <ul className="nav justify-content-center">
-            <li className="nav-item">
-                <Link to="/" className="nav-link">Home</Link>
-            </li>
-            <li className="nav-item">
-                <Link to="/projects" className="nav-link">Projects</Link>
-            </li>
-        </ul>
+        <div className="text-center mt-3">
+            <div className="dropdown d-lg-none mb-5">
+                <button 
+                    className="btn btn-secondary dropdown-toggle" 
+                    type="button" 
+                    id="navDropdown" 
+                    data-bs-toggle="dropdown" 
+                    aria-expanded="false"
+                >
+                    select tab
+                </button>
+                <ul className="dropdown-menu" aria-labelledby="navDropdown">
+                    <li><Link to="/" className="dropdown-item">Home</Link></li>
+                    <li><Link to="/projects" className="dropdown-item">Projects</Link></li>
+                </ul>
+            </div>
+            <nav className="d-none d-lg-flex justify-content-center">
+                <Link to="/" className="btn btn-link">Home</Link>
+                <Link to="/projects" className="btn btn-link">Projects</Link>
+            </nav>
+        </div>
     )
 }
 
-export default Nav
+export default Nav;

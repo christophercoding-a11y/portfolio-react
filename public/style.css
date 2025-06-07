@@ -114,13 +114,13 @@ h2 {
 
 }
 
-.card {
+.project-card {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 0.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card:hover {
+.project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
@@ -137,17 +137,18 @@ h2 {
 }
 
 
-.card-body .btn {
+.project-card-body .btn {
     margin-right: 0.5rem;
     margin-top: 0.5rem;
 }
 
-.nav-link {
+.btn-link {
+    font-size: large;
     color: #000000;
     text-decoration: underline;
 }
 
-.nav-link:hover {
+.btn-link:hover {
     color: darkblue;
     transition: color 0.3s ease; 
 }

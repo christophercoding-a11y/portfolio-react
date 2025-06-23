@@ -33,11 +33,11 @@ export default [
     },
     {
         id: 5, 
-        name: 'library',
-        imgUrl: 'library-screenshot.png',
+        name: 'library app',
+        imgUrl: 'library_app.png',
         description: 'This is my library page project with, Mysql, Express, React, CSS, and Bootstrap ',
         sourceCode: 'https://github.com/christophercoding-a11y/final_project',
-        livePage: ''
+        livePage: '#'
     },
     {
         id: 6, 

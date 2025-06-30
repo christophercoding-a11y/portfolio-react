@@ -3,14 +3,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
 .header {
-    background-color: gray;
-    color: black;
+    background-color: #2c3e50; 
+    color: white;
     padding: 2rem 0;
-    
 }
 
 .h3-heading {
@@ -55,8 +53,8 @@ body {
 
 
 .footer {
-    background-color: grey;
-    color: black;
+    background-color: #2c3e50; 
+    color: white;
     margin-top: 10px;
     padding-top: 20px ;
     padding-bottom: 8px;
@@ -71,41 +69,36 @@ body {
 
 
 .icons {
-    font-size: x-large;
-    color: black;
+    color: #ecf0f1;
+    font-size: 1.5rem;
 }
 
 .PhoneNumber{
-    color: black;
+    color: #ecf0f1;
 }
 
 .Email {
-    color: black;
+    color: #ecf0f1;
 }
 
 .PhoneNumber:hover {
-    color: darkblue;
+    color: #3498db;
     transition: color 0.3s ease; 
 }
 
 .Email:hover {
-    color: darkblue;
+    color: #3498db;
     transition: color 0.3s ease; 
 }
 
 
 
 .icons:hover {
-    color: blue;
+    color: #3498db;
     transition: color 0.3s ease; 
 }
 
 
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 h2 {
     margin-bottom: 2rem;
@@ -115,14 +108,16 @@ h2 {
 }
 
 .project-card {
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 0.5rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border-color: #3498db;
 }
 
 .project-text {
@@ -142,14 +137,20 @@ h2 {
     margin-top: 0.5rem;
 }
 
+.project-grid {
+  display: grid;
+    gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+}
+
 .btn-link {
-    font-size: large;
-    color: #000000;
+    font-size: larger;
+    color: #ecf0f1;
     text-decoration: underline;
 }
 
 .btn-link:hover {
-    color: darkblue;
+    color: #3498db;
     transition: color 0.3s ease; 
 }
 
@@ -186,7 +187,7 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Responsive Columns */
+
 @media (max-width: 768px) {
     .row {
     display: flex;

@@ -31,7 +31,7 @@ const Main =()=> {
             <div className="container">
                 <h2 className="text-capitalize text-center">my projects</h2>
                 <section className="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-4">
-                    { cardComponents}
+                    { cardComponents }
                 </section>
             </div>
         </main>

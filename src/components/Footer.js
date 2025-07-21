@@ -30,6 +30,7 @@ const Footer =()=> {
                 </div>
             </div>
                 <p className="colophon text-center">Site by Christopher Jackson</p>
+                <p className="text-center"><a href="#header" className="BT">back to Top</a></p>
         </div>
     </footer>
     )

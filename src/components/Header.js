@@ -8,7 +8,7 @@ const Header =()=> {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h1 className="heading text-capitalize">my portfolio webpage</h1>
+                        <h1 className="heading text-capitalize">my portfolio page</h1>
                     </div>
                     <div className="col">
                         <Nav />

@@ -4,7 +4,7 @@ const Card =(props)=> {
             <div className="card project-card h-100">
                 <img src={`/images/${props.imgUrl}`} alt={`${props.name} project screenshot`}className="img-fluid image" />
                 
-                <div className="project-card-body card-body d-flex flex-column">
+                <div className="project-card card-body d-flex flex-column">
                     <h2 className="card-title text-uppercase project-text">{props.name}</h2>
                     <p className="card-text">{props.description}</p>
                     <div className="button-group mt-auto">

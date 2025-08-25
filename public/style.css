@@ -10,7 +10,11 @@ body {
 
 
 
-
+.heading {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
 
 
 
@@ -25,11 +29,7 @@ body {
 }
 
 
-.heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
+
 
 
 .container {
@@ -210,6 +210,7 @@ h2 {
     background: #f9f9f9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 .figure-image {
     max-height: 600px;

@@ -8,7 +8,7 @@ const Header =()=> {
             <div className="container">
                 <div className="d-flex flex-column flex-md-row justify-content-between align-items-center">
                     <div className="col">
-                        <h1 className="heading text-capitalize">my portfolio page</h1>
+                        <h1 className="heading">Welcome to My Portfolio</h1>
                     </div>
                     <div className="col">
                         <Nav />

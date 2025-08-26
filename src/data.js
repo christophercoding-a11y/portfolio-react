@@ -19,7 +19,7 @@ export default [
     id: 3,
     name: 'Detroix',
     imgUrl: 'detroix.png',
-    description: 'Detroit-themed site showcasing local culture using Bootstrap.',
+    description: 'Detroit-themed site showcasing local culture using Html, CSS and Bootstrap.',
     sourceCode: 'https://github.com/christophercoding-a11y/detroixboostsrap',
     livePage: 'https://christophercoding-a11y.github.io/detroixboostsrap/',
 },

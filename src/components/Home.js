@@ -8,15 +8,10 @@ const Home =()=> {
                         <h2 className="name-text text-capitalize ">about me</h2>
                         <p className="about-text">Hello! I'm <span className="name">Christopher Jackson</span>, a Junior Web Developer and recent graduate of Mississippi Coding Academies. I’ve gained experience in developing responsive, user-friendly web applications using modern technologies such as JavaScript, React, and Node.js. My background includes a two-year high school program in Simulation and Animation Design, which sparked my interest in development. I'm eager to continue growing as a developer and contribute to impactful tech projects.</p>
                         <h3 className="h3-heading">Technical Skills</h3>
-                        <ul className="mini-text">
-                            <li>HTML 5</li>
-                            <li>CSS</li>
-                            <li>Bootstrap</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                            <li>MySQL</li>
-                            <li>Node.js</li>
-                            <li>Express</li>
+                        <ul className="mini-text list-unstyled">
+                            <li><span className="skill-category">Frontend:</span>HTML, CSS, Bootstrap, JavaScript, React</li>
+                            <li><span className="skill-category">Backend:</span>Node.js, Express</li>
+                            <li><span className="skill-category">Database:</span>MySQL</li>
                         </ul>
                     </div>
                     <div className="col-md-6">

@@ -97,8 +97,8 @@ export default [
 },
 {
     id: 13,
-    name: 'RiddleGame',
-    imgUrl: 'riddlegame.png',
+    name: 'riddle game',
+    imgUrl: 'riddle.png',
     description: 'A fun riddle quiz game built with HTML, CSS, and Vanilla JavaScript.',
     sourceCode: 'https://github.com/christophercoding-a11y/riddlegame',
     livePage: 'https://christophercoding-a11y.github.io/riddlegame/',

@@ -51,7 +51,7 @@ export default [
     id: 7,
     name: 'Bloom',
     imgUrl: 'bloom.png',
-    description: 'A themed menu page built with HTML, CSS, JavaScript, and Bootstrap.',
+    description: 'Landing page built with HTML, CSS, and Bootstrap.',
     sourceCode: 'https://github.com/christophercoding-a11y/bloombs',
     livePage: 'https://christophercoding-a11y.github.io/bloombs/',
 },

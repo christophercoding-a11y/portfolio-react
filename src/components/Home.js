@@ -16,7 +16,7 @@ const Home =()=> {
                     </div>
                     <div className="col-md-6">
                         <figure className="headshot-figure">
-                            <img src="images/me.jpeg"alt="Christopher Jackson smiling" className="img-fluid image figure-image profile-pic" loading="lazy" />
+                            <img src="images/me.jpeg"alt="Christopher Jackson smiling" className="img-fluid image figure-image profile-pic"/>
                             <figcaption className="visually-hidden">Headshot of Christopher Jackson smiling</figcaption>
                         </figure>
                     </div>

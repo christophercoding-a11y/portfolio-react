@@ -47,6 +47,7 @@ main {
 }
 
 .h3-heading {
+    text-decoration: underline;
     font-size: x-large;
 }
 
@@ -60,6 +61,7 @@ main {
 }
 
 .name-text {
+    text-decoration: underline;
     font-size: 3rem;
     font-weight: 700;
     color: #2c3e50;
@@ -173,10 +175,6 @@ h2 {
 }
 
 
-.project-card-body .btn {
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
-}
 
 .project-grid {
     display: grid;
@@ -267,6 +265,10 @@ h2 {
     gap: 2rem;
 }
 }
+
+
+
+
 
 
 

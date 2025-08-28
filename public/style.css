@@ -3,11 +3,25 @@
 
 
 body {
-    
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+
 
 
 
@@ -122,6 +136,12 @@ body {
 }
 
 
+.skill-category {
+    font-weight: 600;
+    margin-right: 0.25rem;
+}
+
+
 
 
 h2 {
@@ -135,6 +155,8 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
 }
+
+
 
 
 
